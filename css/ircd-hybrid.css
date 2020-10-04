@@ -1,0 +1,166 @@
+/*
+* ircd-hybrid project website
+*
+* The main website to the ircd-hybrid project.
+*
+* $Id: ircd-hybrid.css,v 1.2 2005/08/21 00:55:04 knight Exp $
+*/
+
+body {
+    background  : rgb(0,0,0);
+    color       : rgb(255,255,255);
+    font        : normal normal normal 8pt/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin      : 0px;
+    text-align  : center;
+}
+
+p {
+    color       : rgb(162,162,162);
+    margin      : 0.2em 0 1.2em 0;
+    padding     : 0.3em;
+}
+
+h1 {
+    font        : normal normal normal 20pt/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin      : 0;
+    padding     : 0;
+}
+
+h2 {
+    background-color : rgb(66,81,88);
+    color            : rgb(199,217,225);
+    font             : normal normal normal 8.5pt/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin           : 0.2em;
+    padding          : 0;
+}
+
+div {
+    display        : block;
+    margin         : 0;
+    padding        : 0;
+}
+
+a:active, a:link, a:visited {
+    color           : rgb(199,217,225);
+    font-weight     : bold;
+    text-decoration : none;
+}
+
+a:hover {
+    color           : rgb(66,81,88);
+    text-decoration : none;
+}
+
+.container
+{
+    background-color : rgb(0,0,0);
+    border           : 1px solid rgb(97,99,115);
+    margin           : 30px auto 0 auto;
+    padding          : 0; 
+    width            : 65%;
+}
+
+.titleblock {
+    background  : rgb(0,0,0) url(../images/hybrid-logo.png) no-repeat right;
+    color       : rgb(56,90,105);
+    margin      : 0;
+    padding     : 2em;
+    text-align  : left;
+}
+
+.titleblock p {
+    color       : rgb(56,90,105);
+    text-indent : 4em;
+}
+
+ul.navbar {
+    background-color : rgb(66,81,88);
+    clear            : both;
+    display          : block;
+    float            : left;
+    line-height      : 0.1em; 
+    list-style-type  : none;
+    margin           : 0;
+    padding          : 0;
+    width            : 100%;
+}
+
+ul.navbar li {
+    display : inline;
+}
+
+a.nav:active, a.nav:link, a.nav:visited {
+    background-color : rgb(66,81,88);
+    color            : rgb(255,255,255);
+    display          : block;
+    float            : left;
+    margin           : 0; 
+    padding          : 1.2em 0 1.2em 0;
+    width            : 15%;
+    text-decoration  : none;
+}
+
+a.nav:hover {
+    background-color : rgb(199,217,225);
+    color            : rgb(0,0,0);
+    display          : block;
+    float            : left;
+    margin           : 0; 
+    padding          : 1.2em 0 1.2em 0;
+    width            : 15%;
+}
+
+.rightcontainer {
+    clear   : both;
+    float   : right;
+    margin  : 1em 0 0 0;
+    padding : 0;
+    width   : 13em;
+}
+
+.rightbox {
+    border     : 1px solid rgb(97,99,115);
+    margin     : 0.5em;
+    padding    : 0.3em;
+    text-align : center;
+}
+
+.rightcontainer h2 {
+    padding    :0 0 0 1.5em;
+    text-align :left;
+}
+
+.linkbox a {
+    display : block;
+}
+
+.content {
+    clear      : left;
+    margin     : 1.2em 13.5em 0 0;
+    padding    : 1em 1ex 1em 1.5ex;
+    text-align : left;
+}
+
+.content h2 {
+    text-indent : 3em;
+}
+
+.footer {
+    border-top : 1px solid rgb(162,162,162);
+    clear      : both;
+    color      : rgb(162,162,162);
+    font       : normal normal normal 7pt/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin     : 2.5em 0.2em 0.5em 0.5em;
+    padding    : 0.8em; 
+    text-align : left;
+}
+
+.footer .right {
+    clear      : right;
+    float      : right;
+    text-align : right;
+}
+
+.footer p {
+    margin : 0;
+}
