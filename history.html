@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head xml:lang="en">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+    <meta http-equiv="Content-Language" content="en_US" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="Copyright" content="Copyright 2005-2020, IRCD-Hybrid Team" />
+    <meta name="Description" content="IRCD-Hybrid, a high performance irc daemon" />
+    <meta name="Googlebot" content="index, follow, archive" />
+    <meta name="keywords" content="IRC Software, IRC Server, ircd, hybrid, tcm" />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+    <meta name="Robots" content="index, follow, archive, noimageindex" />
+    <meta name="Revisit-After" content="15 days" />
+
+    <title xml:lang="en">: IRCD-Hybrid -- High Performance Internet Relay Chat :</title>
+    
+    <style type="text/css" media="screen" xml:lang="en">
+    /*<![CDATA[*/
+    @import url(css/ircd-hybrid.css);
+    /*]]>*/
+    </style>
+</head>
+
+<body xml:lang="en">
+
+<div class="container" xml:lang="en">
+    <div class="titleblock" xml:lang="en">
+        <h1 xml:lang="en">IRCD-Hybrid</h1>
+        <p xml:lang="en">&ldquo;A lightweight, high-performance internet relay chat daemon.&rdquo;</p>
+    </div>
+    
+    <div>
+        <ul class="navbar" xml:lang="en">
+            <li xml:lang="en"><a href="index.html" class="nav">Home</a></li>
+            <li xml:lang="en"><a href="downloads.html" class="nav">Downloads</a></li>
+            <li xml:lang="en"><a href="support.html" class="nav">Support</a></li>
+            <li xml:lang="en"><a href="history.html" class="nav">History</a></li>
+            <li xml:lang="en"><a href="team.html" class="nav">Team</a></li>
+        </ul>
+    </div>
+   
+    <div class="content" xml:lang="en">
+        <h2 xml:lang="en">History ::</h2>
+        <p xml:lang="en">When talking about the history of ircd-hybrid, we have to look backwards to the times of
+        <strong>The Great Split</strong> (the split in 1996 which divided the original IRC network into
+        <strong>EFnet</strong> and <strong>IRCnet</strong>). One of the technical arguments beyond this event was
+        how an IRC daemon should deal with duplicated entities after servers are re-linked. Generally, further
+        EFnet admins supported the idea of <strong>TimeStamping</strong> nicknames and channels (so that in normal
+        case only the newer one is dropped). Time has proved that TS along with some nick/channel delay options can
+        be a very good choice.</p>
+        <p xml:lang="en">Since then, several implementations of the TS protocol were created. The original one from
+        <strong>Comstud</strong> (Chris Behrens) was +CS patch for ircd-2.8.21. Another one is <strong>Taner</strong>'s
+        extension for 2.8 called +th, which actually begins the history of hybrid. Because of little cooperation with
+        Taner, in 1997 <strong>Jon Lusky</strong> (Rodder) spawned his own project based on 2.8/th.v5a.3, which later
+        became <strong>2.8/hybrid-2</strong>.</p>
+        <p xml:lang="en">(Note, version 1 never really existed.)</p>
+        <p xml:lang="en">From the very early days of the project it was developed and greatly supported also by
+        <strong>Diane Bruce</strong> (Dianora), who contributed a lot of code and continues to be an informal leader
+        of our coding team. In April 1997 hybrid was first released and started to evolve quickly. After h3 and h4,
+        <strong>version 5</strong> was ready yet in September 1997. Apart from the technical details, it brought in
+        the well-known, fresh numerics, which are nowadays collected in <strong>custom.lang</strong>. About 1998,
+        hybrid became the most popular IRC daemon on EFnet.</p>
+        <p xml:lang="en"><strong>hybrid-6</strong> (Dec 1998) was a very successful release, introducing many fixes,
+        cleanups and new features (such as CAPAB, +e, PRIVMSG @#chan, REJECT_HOLD, improved X/Q lines support, better
+        flood control). The project managed to get a large development team of individuals, who helped clean up
+        or rewrite old and dirty 2.8 code. Among others, all server commands which used to be condensed were finally
+        moved to their own files.</p>
+        <p xml:lang="en">As of 2006, h6 branch is still being used on EFnet. Its current maintainer is
+        <strong>Arnvid Karstad</strong> (ievil).</p>
+        <p xml:lang="en">In August 1999 developers decided to spawn another branch of hybrid. The main aim was to
+        sweep away and rewrite everything that looked dirty and hard to analyse. A good illustration of what have been
+        done is the change that took place on server VERSION reply: 2.8/hybrid-6.0 was renamed to ircd-hybrid-7.0, as
+        the ircd really no longer resembled the old 2.8. In fact, some of the good changes are:</p>
+        <ul xml:lang="en" style="color: #a2a2a2">
+        <li>source tree was reorganised once again;</li>
+        <li>I/O was rewritten with a clear interface borrowed from Squid;</li>
+        <li>new metacode, such as event/hook subsystems;</li>
+        <li>dynamically loaded modules -- almost any command can be loaded/unloaded at any time;</li>
+        <li>completely new configuration file, considered more human-friendly (block oriented rather than line/field oriented);</li>
+        <li>halfops (restricted ops, mode +h, marked with % on NAMES);</li>
+        <li>reorganised ziplinks, i.e. moved zlib stuff out of the core code to a separate process named 'servlink';</li>
+        <li>support for encrypted (OpenSSL) links, as requested by EFnet admins;</li>
+        <li>innovative idea of LazyLeafs, which could lead IRC to better scalability (although it's not usable
+        at this moment; we are going to fix it in the near future).</li>
+        </ul>
+        <p xml:lang="en">It took 4 years before 7.0 was released, and when it finally was (2003), we weren't quite happy
+        of it. Unfortunately, during this time many controversial ideas were implemented, some of them visible to end users
+        (like anonymous ops, gettext), some not (linebufs, adns, 4 separate lists for channel members). The code was pretty
+        readable, but still unnecessarily convoluted. The algorithms just needed rethinking, and many junky/untested features
+        were bothering. The real end of the whole cleanup and development process, started in 1999, is
+        <strong>ircd-hybrid-7.1</strong> (2005).
+        We use to say 7.1 is what 7.0 (no longer supported) <strong>should</strong> be.</p>
+        <p xml:lang="en">The latest STABLE release, 7.2, introduces another new metacode (generic hooks and callbacks
+        manager), makes all connection limits dynamically changeable at runtime, and as always carries a lot of
+        bugfixes and various improvements. We plan to further increase the flexibility and modularity with ideas like
+        modular configuration parser, modular user and channel modes etc.; you can watch our work by checking out the
+        -CURRENT tree.</p>
+    </div>
+   
+    <div class="footer" xml:lang="en">
+        <div class="right" xml:lang="en">
+            <p xml:lang="en">Copyright &copy; 1997-2020 IRCD-Hybrid Development Team</p>
+        </div>
+       
+        <p xml:lang="en">Questions and/or Comments: <a href="mailto:&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;" xml:lang="en">&#098;&#117;&#103;&#115;&#064;&#105;&#114;&#099;&#100;&#045;&#104;&#121;&#098;&#114;&#105;&#100;&#046;&#111;&#114;&#103;</a></p>
+   </div>
+</div>
+
+</body>
+</html>
