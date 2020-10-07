@@ -1,0 +1,8 @@
+markdown: kramdown
+
+kramdown:
+  auto_ids: false
+  gfm_quirks: paragraph_end
+  hard_wrap: true
+  input: GFM
+  parse_block_html: true

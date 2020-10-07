@@ -162,3 +162,7 @@ a.nav:hover {
 .footer p {
     margin : 0;
 }
+
+li {
+    color      : rgb(162,162,162);
+}

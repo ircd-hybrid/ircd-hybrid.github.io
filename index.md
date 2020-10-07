@@ -1,0 +1,18 @@
+## Home ::
+
+Welcome to the official site of the IRCD-Hybrid Project! Here you'll be able to find everything you'll need to get started in hosting your own IRC server as well as support.
+
+We hope that you enjoy IRCD-Hybrid and continue to use it for many years to come.
+
+In case you're also looking for an IRC services package, we strongly recommend the [Anope IRC Services](https://www.anope.org/).
+
+&raquo; [Latest STABLE release of ircd-hybrid: 8.2.33](downloads.html)
+<!--            &raquo; [Latest BETA release of ircd-hybrid: 8.2.0rc2](downloads.html)    -->
+
+&raquo; [Latest STABLE release of HOPM (hybrid open proxy monitor): 1.1.8](downloads.html)
+<!--            &raquo; [Latest BETA release of HOPM (hybrid open proxy monitor): 1.1.0beta1](downloads.html)    -->
+
+## Travis CI and Coverity Scan ::
+
+&raquo; [ircd-hybrid on Travis CI](https://travis-ci.org/ircd-hybrid/ircd-hybrid)
+&raquo; [ircd-hybrid on Coverity Scan](https://scan.coverity.com/projects/1086)
