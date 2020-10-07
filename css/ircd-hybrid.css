@@ -59,11 +59,9 @@ a:hover {
 }
 
 .titleblock {
-    background  : rgb(0,0,0) url(../images/hybrid-logo.png) no-repeat right;
+    background  : rgb(0,0,0) url(../images/hybrid-logo.png) no-repeat left;
     color       : rgb(56,90,105);
-    margin      : 0;
-    padding     : 2em;
-    text-align  : left;
+    height      : 165px
 }
 
 .titleblock p {
