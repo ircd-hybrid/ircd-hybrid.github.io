@@ -25,7 +25,7 @@ Latest BETA release of HOPM (hybrid open proxy monitor):
 We offer two methods for accessing the IRCD-Hybrid SVN repository: ViewVC, and AnonSVN. They are updated every two minutes. Use SVN versions at your own risk! SVN versions are under active development and usually are not ready for release &mdash; they may not even compile at any given moment. You have been warned!
 
 &raquo; [ViewVC interface](https://svn.ircd-hybrid.org/viewcvs.cgi/)
-&raquo; [Anonymous SVN](http://subversion.apache.org/)
+&raquo; [Anonymous SVN](https://subversion.apache.org/)
 
 AnonSVN instructions:
 
