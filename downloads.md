@@ -2,23 +2,11 @@
 
 Latest STABLE release of ircd-hybrid:
 
-* [ircd-hybrid-8.2.33.tgz](https://github.com/ircd-hybrid/ircd-hybrid/archive/8.2.33.tar.gz)
-
-<!--
-Latest BETA release:
-
-* [ircd-hybrid-8.2.0rc2.tgz](https://github.com/ircd-hybrid/ircd-hybrid/archive/8.2.0rc2.tar.gz)
--->
+* [ircd-hybrid-{% include_relative version_ircd-hybrid %}.tar.gz](https://github.com/ircd-hybrid/ircd-hybrid/archive/{% include_relative version_ircd-hybrid %}.tar.gz)
 
 Latest STABLE release of HOPM (hybrid open proxy monitor):
 
-* [hopm-1.1.8.tgz](https://github.com/ircd-hybrid/hopm/archive/1.1.8.tar.gz)
-
-<!--
-Latest BETA release of HOPM (hybrid open proxy monitor):
-
-* [hopm-1.1.0beta1.tgz](https://github.com/ircd-hybrid/hopm/archive/1.1.0beta1.tar.gz)
--->
+* [hopm-{% include_relative version_hopm %}.tar.gz](https://github.com/ircd-hybrid/hopm/archive/{% include_relative version_hopm %}.tar.gz)
 
 ## SVN ::
 
