@@ -1,5 +1,0 @@
--- Noteworthy changes in version 8.2.33 (2020-09-07)
-* Added `client` option to `listener::flags`
-* Added `defer` option to `listener::flags`
-* IRC operators may now use CIDR notation in `WHO`
-* For a full list of all changes in this release, see <https://git.io/JTftW>
