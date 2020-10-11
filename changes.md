@@ -1,3 +1,3 @@
 ## Changes ::
 
-{% include_relative news_all_ircd-hybrid %}
+{% include news_all_ircd-hybrid %}

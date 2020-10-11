@@ -2,13 +2,13 @@
 
 Latest STABLE release of ircd-hybrid:
 
-* [ircd-hybrid-{% include_relative version_ircd-hybrid %}.tar.gz](https://github.com/ircd-hybrid/ircd-hybrid/archive/{% include_relative version_ircd-hybrid %}.tar.gz) -- GitHub
-* [ircd-hybrid-{% include_relative version_ircd-hybrid %}.tgz](http://downloads.sourceforge.net/project/ircd-hybrid/ircd-hybrid/ircd-hybrid-{% include_relative version_ircd-hybrid %}/ircd-hybrid-{% include_relative version_ircd-hybrid %}.tgz) -- SourceForge `[sha256: {% include_relative sha256sum_ircd-hybrid %}]`
+* [ircd-hybrid-{% include version_ircd-hybrid %}.tar.gz](https://github.com/ircd-hybrid/ircd-hybrid/archive/{% include version_ircd-hybrid %}.tar.gz) -- GitHub
+* [ircd-hybrid-{% include version_ircd-hybrid %}.tgz](http://downloads.sourceforge.net/project/ircd-hybrid/ircd-hybrid/ircd-hybrid-{% include version_ircd-hybrid %}/ircd-hybrid-{% include version_ircd-hybrid %}.tgz) -- SourceForge `[sha256: {% include sha256sum_ircd-hybrid %}]`
 
 Latest STABLE release of HOPM (hybrid open proxy monitor):
 
-* [hopm-{% include_relative version_hopm %}.tar.gz](https://github.com/ircd-hybrid/hopm/archive/{% include_relative version_hopm %}.tar.gz) -- GitHub
-* [hopm-{% include_relative version_hopm %}.tgz](http://downloads.sourceforge.net/project/ircd-hybrid/hopm/{% include_relative version_hopm %}/{% include_relative version_hopm %}.tgz) -- SourceForge `[sha256: {% include_relative sha256sum_hopm %}]`
+* [hopm-{% include version_hopm %}.tar.gz](https://github.com/ircd-hybrid/hopm/archive/{% include version_hopm %}.tar.gz) -- GitHub
+* [hopm-{% include version_hopm %}.tgz](http://downloads.sourceforge.net/project/ircd-hybrid/hopm/{% include version_hopm %}/{% include version_hopm %}.tgz) -- SourceForge `[sha256: {% include sha256sum_hopm %}]`
 
 ## SVN ::
 
