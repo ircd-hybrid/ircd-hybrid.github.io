@@ -6,11 +6,9 @@ We hope that you enjoy IRCD-Hybrid and continue to use it for many years to come
 
 In case you're also looking for an IRC services package, we strongly recommend the [Anope IRC Services](https://www.anope.org/).
 
-&raquo; [Latest STABLE release of ircd-hybrid: 8.2.33](downloads.html)
-<!--            &raquo; [Latest BETA release of ircd-hybrid: 8.2.0rc2](downloads.html)    -->
+&raquo; [Latest STABLE release of ircd-hybrid: {% include_relative version_ircd-hybrid %}](downloads.html)
 
-&raquo; [Latest STABLE release of HOPM (hybrid open proxy monitor): 1.1.8](downloads.html)
-<!--            &raquo; [Latest BETA release of HOPM (hybrid open proxy monitor): 1.1.0beta1](downloads.html)    -->
+&raquo; [Latest STABLE release of HOPM (hybrid open proxy monitor): {% include_relative version_hopm %}](downloads.html)
 
 ## Travis CI and Coverity Scan ::
 
