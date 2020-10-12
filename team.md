@@ -1,6 +1,6 @@
 ## Team ::
 
-The IRCD-Hybrid Development Team is compromised of many core members and contributors who have put their blood and sweat into the code for many years. We make it our top priority that the best of coding quality is put into our releases and that we meet or exceed our requirements and requests of other IRCD-Hybrid users out there.
+The ircd-hybrid development team is compromised of many core members and contributors who have put their blood and sweat into the code for many years. We make it our top priority that the best of coding quality is put into our releases and that we meet or exceed our requirements and requests of other ircd-hybrid users out there.
 
 **Core Team:**
 

@@ -1,8 +1,8 @@
 ## Support ::
 
-Should you encounter any problems with your IRCD-Hybrid installation, there are several ways to get in touch with the ircd-hybrid community. Please be aware it may take some time to get a response to your question or problem.
+Should you encounter any problems with your ircd-hybrid or HOPM installation, there are several ways to get in touch with the ircd-hybrid community. Please be aware it may take some time to get a response to your question or problem.
 
-If you wish to subscribe to the IRCD-Hybrid Mailing List:
+If you wish to subscribe to the ircd-hybrid mailing list:
 <https://lists.ircd-hybrid.org/mailman/listinfo/hybrid>
 
 SVN commit messages (ChangeLog notification via e-mail):
