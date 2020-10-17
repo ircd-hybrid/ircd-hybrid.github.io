@@ -1,4 +1,4 @@
-## History ::
+## History * ::
 
 When talking about the history of ircd-hybrid, we have to look backwards to the times of **The Great Split** (the split in 1996 which divided the original IRC network into **EFnet** and **IRCnet**). One of the technical arguments beyond this event was how an IRC daemon should deal with duplicated entities after servers are re-linked. Generally, further EFnet admins supported the idea of **TimeStamping** nicknames and channels (so that in normal case only the newer one is dropped). Time has proved that TS along with some nick/channel delay options can be a very good choice.
 
@@ -27,3 +27,5 @@ In August 1999 developers decided to spawn another branch of hybrid. The main ai
 It took 4 years before 7.0 was released, and when it finally was (2003), we weren't quite happy of it. Unfortunately, during this time many controversial ideas were implemented, some of them visible to end users (like anonymous ops, gettext), some not (linebufs, adns, 4 separate lists for channel members). The code was pretty readable, but still unnecessarily convoluted. The algorithms just needed rethinking, and many junky/untested features were bothering. The real end of the whole cleanup and development process, started in 1999, is **ircd-hybrid-7.1** (2005). We use to say 7.1 is what 7.0 (no longer supported) **should** be.
 
 The latest STABLE release, 7.2, introduces another new metacode (generic hooks and callbacks manager), makes all connection limits dynamically changeable at runtime, and as always carries a lot of bugfixes and various improvements. We plan to further increase the flexibility and modularity with ideas like modular configuration parser, modular user and channel modes etc.; you can watch our work by checking out the -CURRENT tree.
+
+\* ***Please note that this is an archived section with data that is most likely out of date and exists solely for historical information purposes.***
