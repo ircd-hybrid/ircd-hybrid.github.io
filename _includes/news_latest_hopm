@@ -1,8 +1,3 @@
--- Noteworthy changes in version 1.1.9 (2020-11-16)
-* Implemented support for loading a user-provided private key and tls client
-  certificate. The `irc::rsa_private_key_file`and `irc::tls_certificate_file`
-  configuration directives have been added for this.
-  As a side effect this now allows HOPM to use certificate fingerprints for
-  NickServ authentication
-* The `vhost` configuration directive found in the irc {} and scanner {} blocks
-  has been renamed to `bind`
+-- Noteworthy changes in version 1.1.10 (2021-01-30)
+* Timers have been changed to use monotonic time instead of wall-clock time
+* Fixed broken build with LibreSSL
