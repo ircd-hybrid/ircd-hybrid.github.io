@@ -12,8 +12,7 @@ In case you're also looking for an IRC services package, we strongly recommend t
 &raquo; [Latest STABLE release of HOPM (hybrid open proxy monitor): {% include version_hopm %}](downloads.html)
 {% include news_latest_hopm %}
 
-## Travis CI and Coverity Scan ::
+## Coverity Scan ::
 
-&raquo; [ircd-hybrid on Travis CI](https://travis-ci.org/ircd-hybrid/ircd-hybrid)
-&raquo; [HOPM on Travis CI](https://travis-ci.org/ircd-hybrid/hopm)
-&raquo; [ircd-hybrid on Coverity Scan](https://scan.coverity.com/projects/1086)
+&raquo; [ircd-hybrid on Coverity Scan](https://scan.coverity.com/projects/ircd-hybrid-ircd-hybrid)
+&raquo; [HOPM on Coverity Scan](https://scan.coverity.com/projects/ircd-hybrid-hopm)
