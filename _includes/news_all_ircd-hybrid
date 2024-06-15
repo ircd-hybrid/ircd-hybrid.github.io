@@ -1,3 +1,50 @@
+#### Noteworthy changes in version 8.2.44 (2024-??-??)
+* Fixed FTCBFS issue caused by ./configure using macros that lacked special handling
+  for cross-compilation scenarios
+* Fixed the issue where XLINE and UNXLINE were not working properly on servers within
+  a cluster
+* Command-line options now support both short (`-c`) and long (`--configfile`) formats.
+  The available options are:
+  * `-c` or `--configfile` for the configuration file
+  * `-k` or `--klinefile` for the kline database file
+  * `-d` or `--dlinefile` for the dline database file
+  * `-x` or `--xlinefile` for the xline database file
+  * `-r` or `--resvfile` for the resv database file
+  * `-l` or `--logfile` for the log file
+  * `-p` or `--pidfile` for the PID file
+  * `-f` or `--foreground` to run in the foreground
+  * `-v` or `--version` to print the version and exit
+  * `-h` or `--help` to display help information
+* The new IRC operator flag, `message:mass`, has been implemented. This flag controls
+  access to sending mass messages using the `NOTICE $$*.mask` command.
+* Upon connecting, a user will now receive a notice with their client certificate
+  fingerprint, if provided.
+* The `INFO` command now includes the `serverinfo::name`, `serverinfo::sid`, and
+  `serverinfo::description` configuration options in its output.
+* The `STATS` subsystem has been rewritten to support dynamic registration and unregistration
+  of stats handlers. This allows modules to register and unregister their own stats handlers.
+* Implemented hostname cloaking API to improve user privacy and security by obfuscating real
+  IP addresses. The cloaking process uses CIDR masking, SHA3 hashing, and base32 encoding to
+  generate secure and unique cloaked hostnames. The following configuration directives
+  have been introduced:
+  * `cloak_enabled`: Enable or disable hostname cloaking.
+  * `cloak_cidr_len_ipv4`: CIDR length for IPv4 addresses used in hostname cloaking.
+  * `cloak_cidr_len_ipv6`: CIDR length for IPv6 addresses used in hostname cloaking.
+  * `cloak_num_bits`: Number of bits for the MAC computation used in hostname cloaking.
+  * `cloak_secret`: Secret key used in the MAC computation for hostname cloaking.
+  * `cloak_suffix`: Suffix appended to the cloaked hostname.
+* Added user mode `+x` (cloak) to activate hostname cloaking for the user, replacing their
+  real IP address with a cloaked hostname.
+* The `INFO` command now includes the new cloaking configuration options in its output. The
+  following cloaking-related configuration directives will be shown:
+  * `general::cloak_enabled`
+  * `general::cloak_cidr_len_ipv4`
+  * `general::cloak_cidr_len_ipv6`
+  * `general::cloak_num_bits`
+  * `general::cloak_secret` (displayed as `REDACTED` for security)
+  * `general::cloak_suffix`
+
+
 #### Noteworthy changes in version 8.2.43 (2022-09-26)
 * Due to ongoing protocol modernizations and deprecation of old backwards compatibility
   code, ircd-hybrid is now no longer link compatible to 8.2.33 and below.
