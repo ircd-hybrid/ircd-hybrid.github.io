@@ -1,3 +1,18 @@
+#### Noteworthy changes in version 8.2.46 (2025-01-22)
+* The user mode subsystem now supports dynamic registration and unregistration of user
+  modes. This allows modules to register and unregister their own user modes, making the
+  system more flexible and modular.
+* The `INFO` command output now includes namespaces, organizing configuration entries
+  according to their respective configuration blocks for better clarity and structure
+* The `INFO` command output now shows entries from the admin {} config block
+* The `WALLOPS` command has been removed
+* The `serverinfo::motd_file` configuration directive has been added, allowing the
+  Message of the Day (MOTD) file path to be customized instead of hardcoded
+* The `channel::max_kick_length` configuration directive has been added, allowing 
+  servers to specify the maximum length of a `KICK` message that the server will 
+  accept from a client.
+
+
 #### Noteworthy changes in version 8.2.45 (2024-07-02)
 * The module API has been rewritten for improved flexibility. A `modules.conf` file is now
   required for configuring and loading modules. For further information, refer to the
