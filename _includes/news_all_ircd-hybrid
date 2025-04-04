@@ -1,3 +1,15 @@
+#### Noteworthy changes in version 8.2.47 (2025-04-04)
+* The `general::max_away_length` configuration directive has been added, allowing
+  servers to specify the maximum length of a `AWAY` message that the server will
+  accept from a client.
+* The `general::disable_dns` configuration directive has been added, allowing
+  servers to disable DNS lookups
+* K-lines, D-lines, X-lines, and RESVs are no longer stored in binary database format.
+  These entries are now stored in JSON format using libjansson.
+* The `general::ident_timeout` configuration directive has been added, allowing
+  servers to specify how long to wait for Ident replies
+
+
 #### Noteworthy changes in version 8.2.46 (2025-01-22)
 * The user mode subsystem now supports dynamic registration and unregistration of user
   modes. This allows modules to register and unregister their own user modes, making the
@@ -8,8 +20,8 @@
 * The `WALLOPS` command has been removed
 * The `serverinfo::motd_file` configuration directive has been added, allowing the
   Message of the Day (MOTD) file path to be customized instead of hardcoded
-* The `channel::max_kick_length` configuration directive has been added, allowing 
-  servers to specify the maximum length of a `KICK` message that the server will 
+* The `channel::max_kick_length` configuration directive has been added, allowing
+  servers to specify the maximum length of a `KICK` message that the server will
   accept from a client.
 
 
